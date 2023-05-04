@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header > img{
+    width: 200px;
+}
+
+header{
+    padding-top: 30px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #00DD0D;
+}
+
+nav{
+    text-align: center;
+    background-color: #00DD0D;
+    width: 60%;
+    margin:auto;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+nav :hover{
+    cursor: pointer;
+    background-color: lightsalmon;
+    color: white;
+}
+main{
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+
+body{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#background {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 5%;
+    margin: auto;
+    width: 85%;
+    margin-top: 20px;
+}
+
+.row{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.address, .batteria{
+    font-size: small;
+}
+.address:before{
+    content: "\2192";
+}   
+
+hr{
+    height: 20px;
+    margin: inherit;
+    border-radius: 5px; 
+    margin-top: 5px;
+}
+#carica1{
+    border-color: lightsalmon;
+    width: 200px;
+    background-color: lightsalmon;
+}
+
+#carica2{
+    border-color: #00DD0D;
+    width: 350px;
+    background-color: #00DD0D;
+}
+
+#carica3{
+    border-color: red;
+    width: 100px;
+    background-color: red;
+}
+
